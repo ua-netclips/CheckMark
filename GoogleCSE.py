@@ -2,10 +2,6 @@ import re
 import math
 from collections import Counter
 from googleapiclient.discovery import build
-# searchEngine_API = 'AIzaSyDy8KWEz3iDy3RUeJuE8ly8uYc1nPWgAto'
-# searchEngine_API = 'AIzaSyBbMfadbDuyV4vuNqPU4MDq_6KwFQqeeDg'
-#searchEngine_API = 'AIzaSyCLf7qR669Zu3CjhhmRrLx3Mnp7lTw80QA'
-
 
 def searchAPI(text, output, c, keyApi):
     try:
