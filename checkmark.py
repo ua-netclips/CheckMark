@@ -5,8 +5,10 @@ from collections import Counter
 from googleapiclient.discovery import build
 import math
 import re
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, resources={r"/api/*": {"origins": "https://netclips-soft.000webhostapp.com"}})
 
 @app.route("/")
 def homePage():
